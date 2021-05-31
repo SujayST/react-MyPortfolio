@@ -3,9 +3,22 @@
 .navbar{
     position: fixed;
     color: white;
-    background-color: $mainColor;
+    background-color: rgba(0, 0, 0, 0.404);
     width: 100%;
     height: 70px;
     top: 0pc;
     z-index: 2;
+
+    .wrapper{
+        padding: 15px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .right{
+            .button{
+                color: white;
+            }
+        }
+    }
 }
