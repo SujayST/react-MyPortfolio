@@ -5,7 +5,12 @@
   .sections{
     width: 100%;
     height: calc(100vh);
-    background-color: rgb(172, 166, 167);
+    background-image: url("../src/assets/images/bg12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.863);
+    //background-color: rgb(172, 166, 167);
     position: relative;
     top: 0;
     overflow: scroll;

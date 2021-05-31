@@ -5,11 +5,13 @@ import Aboutme from './components/aboutme/Aboutme';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import { useState } from "react";
 
 function App() {
-  return (
+  const [menuOpen, setMenuOpen]= useState(false);
+    return (
     <div className="App">
-      <Navbar/>
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Home />
         <Aboutme />

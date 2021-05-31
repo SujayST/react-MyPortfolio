@@ -18,6 +18,49 @@
         .right{
             .button{
                 color: white;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+        }
+        .mright{
+            display: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .mright{
+                width: 32px;
+                height: 25px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                span{
+                    width: 100%;
+                    height: 3px;
+                    background-color: $mainColor;
+                    transform-origin: left;
+                    transition: all 2s ease;
+                }
+            }
+        }
+    }
+
+    &.active{
+        background-color: $mainColor;
+        color: white;
+
+        .mright{
+            span{
+                &:first-child{
+                    background-color: white;
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2){
+                    opacity: 0;
+                }
+                &:last-child{
+                    background-color: white;
+                    transform: rotate(-45deg);
+                }
             }
         }
     }
