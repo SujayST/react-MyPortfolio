@@ -24,19 +24,19 @@ export default function Contact() {
 
       <div className="row">
             <div className="column">
-                <img src={twitter} width="30" height="30"/>
+                <img src={twitter} width="30" height="30" alt=""/>
             </div>
             <div className="column">
-                <img src={globe} width="30" height="30"/>
+                <img src={globe} width="30" height="30" alt=""/>
              </div>
              <div className="column">
-                <img src={mobile} width="30" height="30"/>
+                <img src={mobile} width="30" height="30" alt=""/>
             </div>
              <div className="column">
-                 <img src={linkedin} width="30" height="30"/>
+                 <img src={linkedin} width="30" height="30" alt=""/>
             </div>
              <div className="column">
-                 <img src={youtube} width="30" height="30"/>
+                 <img src={youtube} width="30" height="30" alt=""/>
              </div>
          </div>
 

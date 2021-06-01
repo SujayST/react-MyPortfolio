@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
-import Particle from "./Particle";
+
 
 import su1 from "../../assets/Projects/su11.png";
 import su2 from "../../assets/Projects/su2.jpg";
@@ -14,8 +14,9 @@ import sh5 from "../../assets/Projects/sh5.jpg";
 
 function Projects() {
   return (
+    <div className="projects" id="projects">
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           My Projects <strong className="purple"> </strong>
@@ -52,7 +53,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+       {/*<Col md={4} className="project-card">
             <ProjectCard
               imgPath={si4}
               isBlog={false}
@@ -70,11 +71,12 @@ function Projects() {
               description="Gesture based robotic arm prototype to pick and place objects by remotely controlling the model using a device."
               link="https://github.com/shivaninazare/Gesture-Controlled-Robotic-Arm"
             />
-          </Col>
+          </Col>*/}
         </Row>
         
       </Container>
     </Container>
+    </div>
   );
 }
 
