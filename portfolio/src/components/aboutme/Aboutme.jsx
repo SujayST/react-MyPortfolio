@@ -15,6 +15,7 @@ export default function Aboutme() {
                         I'm passionate Frontend developer who focuses on writing clean, elegant and efficient code.User Interface Desinger designing beautifull and functional user interfaces.
                     </h6>
                 </div>
+                
                 <div className="video">
                     <video src={video} width="500" height="200" controls style={{marginTop:80}}>
                     </video>
