@@ -1,7 +1,7 @@
 import "./sidebar.scss"
 import github from "../../assets/logos/github-logo.svg";
 import linkedin from "../../assets/logos/linkedin.svg";
-import insta from "../../assets/logos/insta.png";
+import insta from "../../assets/logos/Instagram.svg";
 
 export default function Sidebar() {
     return (
@@ -18,7 +18,7 @@ export default function Sidebar() {
             </div>
             <div className="lyr" id="s3" >
                 <a href="https://www.instagram.com/sujay_tadahal" >
-                    <img className="logo" id="i1" src={insta} alt="Instagram" />
+                    <img className="logo" src={insta} alt="Instagram" />
                 </a>
             </div>
             
