@@ -9,8 +9,8 @@ export default function Aboutme() {
             <div className="con">
                 <div className="about">
                     <h1 className="text-left font-weight-bold " style={{color: "#CF6679"}}>About Me</h1> <br/>
-                    <h3 className="text-left font-weight-bold text-white">I'm Sonali Kabadi</h3>
-                    <h6 className="text-left  text-white">   I'm currently a third year Engineering student majoring in
+                    <h3 className="text-left font-weight-bold text-white  ">I'm Sonali Kabadi</h3>
+                    <h6 className="text-left text-white ">   I'm currently a third year Engineering student majoring in
                     Computer Science in Kle Technological University, Hubli, Karnataka, Inida.
                         I'm passionate Frontend developer who focuses on writing clean, elegant and efficient code.User Interface Desinger designing beautifull and functional user interfaces.
                     </h6>
