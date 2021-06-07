@@ -17,6 +17,12 @@
         justify-content: space-between;
         
         .right{
+            #resume{
+                border: rgba(13,102,102,.9);
+                border-style: solid;
+                border-radius: .7rem;
+                border-width: .25rem;
+            }
             .button{
                 color: white;
                 margin-left: 15px;

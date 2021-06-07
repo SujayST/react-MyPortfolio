@@ -5,6 +5,7 @@ import Aboutme from './components/aboutme/Aboutme';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
+import Sidebar from './components/sidebar/Sidebar';
 import { useState } from "react";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      <Sidebar />
     </div>
   );
 }
