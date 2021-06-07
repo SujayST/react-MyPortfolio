@@ -3,6 +3,7 @@
   
 
   .sections{
+    
     width: 100%;
     height: calc(100vh);
     background-image: url("./assets/images/pb.png");
@@ -24,6 +25,7 @@
       display: none;
     }
 
+
     >*{
       padding-top: 70px;
       width: 100vw;
@@ -31,8 +33,9 @@
       scroll-snap-align: start ;
       scrollbar-width: none;
     }
-    overflow-x: hidden;
+    //overflow-x: hidden;
   }
 }
+
 
 

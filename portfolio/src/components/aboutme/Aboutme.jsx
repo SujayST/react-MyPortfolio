@@ -3,6 +3,7 @@ import "./aboutme.scss";
 import video from "../../assets/Videos/butter.mp4";
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 export default function Aboutme() {
     return (
         <div className="aboutme" id="aboutme" >

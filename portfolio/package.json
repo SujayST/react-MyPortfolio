@@ -11,9 +11,13 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
+    "react-horizontal-scroll-container": "^1.0.1",
+    "react-horizontal-scrolling-menu": "^0.7.10",
+    "react-horizontal-slider": "^1.1.1",
     "react-icons": "^4.2.0",
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.3",
+    "react-sliding-container": "^1.0.3",
     "sass": "^1.34.0",
     "sass-loader": "^11.1.1",
     "web-vitals": "^1.1.2"

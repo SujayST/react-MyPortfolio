@@ -1,3 +1,51 @@
 .projects{
-    background-color: rgba(0, 139, 139, 0);
+  background-image:url("../../assets/images/bg12.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+  overflow-x: hidden;
+  margin: 10px;
+  padding: 20px;
+  -webkit-overflow-scrolling: touch;
+  text-align: justify;
+  .h1{
+    color:pink;
+  }
+  .p{
+    color:black;
+  }
+  
+}
+.Slide{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.content1{
+  color:white;
+  
+}
+.b1{
+  position:absolute;
+  bottom:0;
+}
+.display1{
+  color:rgb(199, 74, 95);
+}
+.my-slider{
+margin:auto;
+width:50%;
+padding:10px;
+//align:center;
+}
+
+.project-card{
+  color: salmon;
+  margin: 10px;
+  padding: 20px;
+  
+  border: 2px solid salmon;
+  
+  color: salmon;
 }
