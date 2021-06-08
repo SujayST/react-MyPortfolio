@@ -18,7 +18,7 @@ export default function Aboutme() {
                 </div>
                 
                 <div className="video">
-                    <video src={video} width="500" height="200" controls style={{marginTop:80}}>
+                    <video src={video}  controls style={{marginTop:80}}>
                     </video>
                 </div>
             </div>
