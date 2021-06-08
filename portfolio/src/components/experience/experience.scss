@@ -1,3 +1,80 @@
 .experience{
-    background-color: mediumvioletred;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .layer{
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.582);
+        height: 80vh;
+        width: 80vw;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        .skill-head{
+            width: 100%;
+            display: block;
+            display: flex;
+            flex-direction: row;
+
+            .blk{
+                margin-top: 20px;
+                margin-left: 75px;
+                display: inline;
+                height: 40px;
+                width: 20px;
+                background-color: hotpink;
+            }
+            h1{
+                margin-top: 16px;
+                margin-left: 15px;
+                color: white;
+        
+            }
+        
+        }
+        .skill-row{
+            margin: auto;
+            align-self: center;
+            margin-top: 3px;
+            height: 40%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+
+            .skill-block{
+                margin-left: 1%;
+                margin-right: 1%;
+                margin-top: 20px;    
+                height: 80%;
+                width: 21%;
+                border-radius: 15px;
+                background-color: #d6d6d650;
+                vertical-align: middle;
+                display: flex;
+                justify-content: space-around;
+                padding-top: 45px;
+
+                .skill-img{
+                    
+                    height: 60%;
+                }
+            }
+            .skill-block:hover{
+                background-color: white;
+                padding-top: 30px;
+
+                .skill-img{
+                    
+                    height: 80%;
+                } 
+            }
+        }
+    }
+
 }

@@ -1,12 +1,15 @@
 #react-sliding-container{
     display:block;
+    
     box-sizing:content-box;
     background-color:rgba(255, 255, 255, 0);
-    position:relative;overflow:hidden
+    position:relative;
+    overflow:hidden
 }
 #react-sliding-container .react-sliding-container-inner{
     position:absolute;
-    top:0;bottom:0
+    top:0;
+    bottom:0
 }
 .react-sliding-container-arrow{
     position:absolute;
