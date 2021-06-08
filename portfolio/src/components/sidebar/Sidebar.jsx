@@ -5,7 +5,10 @@ import insta from "../../assets/logos/Instagram.svg";
 
 export default function Sidebar() {
     return (
-        <div className="sidebar" id="sidebar">
+        <h1> </h1>
+    )
+}
+/*<div className="sidebar" id="sidebar">
             <div className="lyr" id="s1" >
                 <a href="https://www.linkedin.com/in/sujay-tadahal/" >
                     <img className="logo" src={linkedin} alt="Linkedin" />
@@ -22,6 +25,4 @@ export default function Sidebar() {
                 </a>
             </div>
             
-        </div>
-    )
-}
+        </div>*/ 
