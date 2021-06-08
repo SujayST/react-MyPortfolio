@@ -5,7 +5,7 @@ import insta from "../../assets/logos/insta.png";
 
 export default function Sidebar() {
     return (
-        <h1>s</h1>
+        <h1> </h1>
     )
 }
 /*<div className="sidebar" id="sidebar">
